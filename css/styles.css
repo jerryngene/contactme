@@ -1,0 +1,120 @@
+body
+{
+    font-family: 'Merriweather',serif;  margin: 0;  text-align: center;
+}
+
+h1
+{
+  font-family: 'Sacramento',cursive;
+    margin-top:0
+
+}
+
+h2
+{
+    font-family: 'Montserrat',sans-serif;
+}
+
+h3
+{
+    font-family: 'Montserrat',sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+  border: dotted #bAF5f2 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a{
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.top-container
+{
+    position: relative;  padding-top: 60px;  background-color: #c4ddff;
+}
+
+.top-cloud
+{
+    position: absolute;  top: 50px;     right: 300px;
+}
+
+.bottom-cloud
+{
+    position: absolute;  bottom: 300px;  left: 300px;
+}
+
+.image-PJ
+{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.skill-row{
+margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.webdesign-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.presentation-img{
+width: 25%;
+float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  margin: 100px 0 0 0;
+}
+
+.btn{
+  background: #a6b6e0;
+  background-image: -webkit-linear-gradient(top, #a6b6e0, #194561);
+  background-image: -moz-linear-gradient(top, #a6b6e0, #194561);
+  background-image: -ms-linear-gradient(top, #a6b6e0, #194561);
+  background-image: -o-linear-gradient(top, #a6b6e0, #194561);
+  background-image: linear-gradient(to bottom, #a6b6e0, #194561);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a8ebf0;
+  background-image: -webkit-linear-gradient(top, #a8ebf0, #a6c9e0);
+  background-image: -moz-linear-gradient(top, #a8ebf0, #a6c9e0);
+  background-image: -ms-linear-gradient(top, #a8ebf0, #a6c9e0);
+  background-image: -o-linear-gradient(top, #a8ebf0, #a6c9e0);
+  background-image: linear-gradient(to bottom, #a8ebf0, #a6c9e0);
+  text-decoration: none;
+}
+
+.middle-container{
+  padding-bottom: 100px;
+}
+
+.bottom-container{
+  background-color: #a8ebf0;
+  padding: 50px 0 20px;
+}
